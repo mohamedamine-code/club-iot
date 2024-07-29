@@ -1,0 +1,204 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    box-sizing: border-box;
+    background-color: #353B74;
+}
+header{
+    background-color: #ffffff3b;
+    padding: 1%;
+    margin: 1%;
+    border-radius: 30px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 30px;
+}
+.header{
+    margin-bottom: 20px;
+}
+.header .logo a{
+    font-size: 40px;
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+}
+.header .navbar a{
+    font-size: 20px;
+    font-weight: 800;
+    text-decoration: none;
+    color: white;
+    margin-left: 25px;
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+} 
+.content h1{
+    position: relative;
+    font-size: 50px;
+    color: rgba(255, 255, 255, 0.668);
+    letter-spacing: 5px;
+}
+.content p{
+    width: 50%;
+    color: black;
+    line-height: 23px;
+    padding-bottom: 20px;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: space-around;
+    height: 46px;
+    
+}
+.btn input,.btn a{
+    display: flex;
+    height: 100%;
+    width: 100px;
+    border-radius: 20px;
+    align-items: center;
+    text-decoration: none;
+    justify-content: center;
+    
+}
+.btn input[value="Portfolio"],.btn a{
+    background-color: transparent;
+    color: white;
+    border: white 2px solid;
+    letter-spacing: 2px;
+}
+.btn a{
+    background-color: #EBAC06;
+    border:#EBAC06 2px solid;
+    box-shadow: 0 0 10px #EBAC06;
+}
+.Home{
+    display: flex;
+}
+.navbar .active{
+    color: #EBAC06 !important;
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+}
+.img-header{
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+}
+.header .navbar a:hover{
+    color: #EBAC06;
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+.btn input[value="Portfolio"]:hover{
+    color: #EBAC06;
+    border: 1px solid #EBAC06;
+    background-color: white;
+    letter-spacing: 2px;
+    transition: 0.5s;
+    filter: drop-shadow(0px 5px 5px #EBAC06);
+}
+.btn a:hover{
+    color: #EBAC06;
+    background-color: rgb(255, 255, 255);
+    letter-spacing: 2px;
+    transition: 0.5s;
+}
+/* part two*/
+.big-home{
+    color: white;
+    padding: 0 10%;
+}
+h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+.pText{
+    font-size: 19px;
+    margin: 20px 0;
+}
+.home-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 20px;
+}
+.pBox{
+    width: 50%;
+    line-height: 20px;
+}
+.box-home-training{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 110px;
+}
+.boxTrinning{
+    padding: 50px;
+    background-color: rgba(255, 255, 255, 0.137);
+    border-radius: 20px;
+    height: 258.4px;
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+}
+.boxTrinning .pTrai{
+    font-size: 25px;
+    font-weight: 800;
+}
+.AI{
+    margin-top: 19px;
+}
+.boxTeam img{
+    max-width: 200px;
+    max-height: 270px;
+    border-radius: 10px;
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+}
+.boxteam{
+    max-width: 200px;
+    height: 329px;
+    padding: 50px;
+    background-color:  rgba(255, 255, 255, 0.137);
+    border-radius: 20px;
+    margin-bottom: 20px;
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+}
+.name{
+    position: relative;
+    padding: 10px;
+    background-color:#EBAC06;
+    border-radius: 50px;
+    left: 25%;
+    bottom: 50px !important;
+}
+h4{
+    position: relative;
+    bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    color: rgba(255, 255, 255, 0.515);
+}
+h5{
+    position: relative;
+    bottom: 10px;
+    display: flex;
+    flex-direction: row;
+    font-size: 18px;
+}
+.Homeboxteam{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+    justify-content: center;
+}
+.box img{
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+}
+.AboutUs img{
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+}
+.boxTrinning img{
+    filter: drop-shadow(10px 10px 5px rgba(0, 0, 0, 0.5));
+}
